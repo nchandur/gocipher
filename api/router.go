@@ -20,6 +20,7 @@ func SetUpRouter() *gin.Engine {
 	}))
 
 	AtbashHandler(r)
+	ROT13Handler(r)
 
 	return r
 
