@@ -23,6 +23,7 @@ func SetUpRouter() *gin.Engine {
 	ROT13Handler(r)
 	CaesarHandler(r)
 	AffineHandler(r)
+	RailFenceHandler(r)
 
 	return r
 
