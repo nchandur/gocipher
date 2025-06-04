@@ -24,6 +24,7 @@ func SetUpRouter() *gin.Engine {
 	CaesarHandler(r)
 	AffineHandler(r)
 	RailFenceHandler(r)
+	PolybiusHandler(r)
 
 	return r
 
