@@ -26,6 +26,7 @@ func SetUpRouter() *gin.Engine {
 	RailFenceHandler(r)
 	PolybiusHandler(r)
 	SubstitutionHandler(r)
+	ColumnarHandler(r)
 
 	return r
 
