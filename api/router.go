@@ -27,6 +27,7 @@ func SetUpRouter() *gin.Engine {
 	PolybiusHandler(r)
 	SubstitutionHandler(r)
 	ColumnarHandler(r)
+	AutokeyHandler(r)
 
 	return r
 
